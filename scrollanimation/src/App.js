@@ -1,5 +1,11 @@
+import Page1 from "./Pages/Page1/Page1";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Page1 />
+    </div>
+  );
 }
 
 export default App;
