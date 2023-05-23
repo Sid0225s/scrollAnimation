@@ -8,14 +8,29 @@
   height: 100vh;
 }
 .left {
-  background-color: rgb(127, 25, 223);
+  background-color: rgba(7, 105, 75, 0.86);
   position: relative;
 }
 .right {
-  background-color: rgba(255, 255, 255, 0.878);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(15, 174, 105, 0.926);
+  position: relative;
+  overflow: hidden;
+}
+.icon1 {
+  position: absolute;
+  width: 47%;
+  z-index: 1;
+  left: 25%;
+  bottom: -14%;
+  transition: 0.5s ease;
+}
+.icon2 {
+  position: absolute;
+  width: 35%;
+  bottom: -6%;
+  z-index: 0.5;
+  right: 6%;
+  transition: 0.5s ease;
 }
 .content {
   position: absolute;
@@ -25,7 +40,7 @@
   color: white;
 }
 .content img {
-  width: 85%;
+  width: 65%;
   margin-bottom: 1rem;
 }
 .content h1 {
@@ -34,6 +49,7 @@
 }
 .content h4 {
   font-weight: 300;
+  color: rgb(168, 205, 193);
 }
 
 .content h5 {
@@ -48,8 +64,4 @@
 }
 .bottom h4 {
   font-weight: 200;
-}
-
-.right img {
-  width: 35%;
 }

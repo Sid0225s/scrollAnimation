@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 5fr 6fr;
   height: 100vh;
+  overflow: hidden;
 }
 .left {
   background-color: rgb(127, 25, 223);
@@ -51,5 +52,6 @@
 }
 
 .right img {
+  transition: 0.5s ease;
   width: 35%;
 }

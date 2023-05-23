@@ -8,14 +8,48 @@
   height: 100vh;
 }
 .left {
-  background-color: rgb(127, 25, 223);
+  background-color: rgba(32, 92, 210, 0.964);
   position: relative;
 }
 .right {
-  background-color: rgba(255, 255, 255, 0.878);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(33, 193, 242, 0.967);
+  position: relative;
+  overflow: hidden;
+}
+.icon1 {
+  position: absolute;
+  bottom: -15%;
+  left: 14%;
+  transition: 0.5s ease;
+  width: 26%;
+}
+.icon2 {
+  position: absolute;
+  top: -13%;
+  left: 14%;
+  transition: 0.5s ease;
+  width: 26%;
+}
+.icon3 {
+  position: absolute;
+  bottom: -12rem;
+  left: 42%;
+  transition: 0.5s ease;
+  width: 27%;
+}
+.icon4 {
+  position: absolute;
+  transition: 0.5s ease;
+  top: -2%;
+  right: 32%;
+  width: 25%;
+}
+.icon5 {
+  position: absolute;
+  bottom: 14%;
+  right: 3%;
+  transition: 0.5s ease;
+  width: 25%;
 }
 .content {
   position: absolute;
@@ -48,8 +82,4 @@
 }
 .bottom h4 {
   font-weight: 200;
-}
-
-.right img {
-  width: 35%;
 }

@@ -8,14 +8,25 @@
   height: 100vh;
 }
 .left {
-  background-color: rgb(127, 25, 223);
+  background-color: rgb(106, 33, 242);
   position: relative;
 }
 .right {
-  background-color: rgba(255, 255, 255, 0.878);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(12, 13, 68, 0.91);
+  position: relative;
+  overflow: hidden;
+}
+.icon1 {
+  position: absolute;
+  bottom: -3.5rem;
+  left: 20%;
+  transition: 0.5s ease;
+}
+.icon2 {
+  position: absolute;
+  top: -6rem;
+  right: 5%;
+  transition: 0.5s ease;
 }
 .content {
   position: absolute;
