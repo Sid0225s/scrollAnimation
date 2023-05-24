@@ -1,66 +1,77 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .page {
-  display: grid;
-  grid-template-columns: 5fr 6fr;
-  height: 100vh;
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    height: 100vh;
 }
+
 .left {
-  background-color: rgb(106, 33, 242);
-  position: relative;
+    background-color: rgb(106, 33, 242);
+    position: relative;
 }
+
 .right {
-  background-color: rgba(12, 13, 68, 0.91);
-  position: relative;
-  overflow: hidden;
+    background-color: rgba(12, 13, 68, 0.91);
+    position: relative;
+    overflow: hidden;
 }
+
 .icon1 {
-  position: absolute;
-  bottom: -3.5rem;
-  left: 20%;
-  transition: 0.5s ease;
+    position: absolute;
+    bottom: -3.5rem;
+    left: 20%;
+    transition: 0.5s ease;
 }
+
 .icon2 {
-  position: absolute;
-  top: -6rem;
-  right: 5%;
-  transition: 0.5s ease;
+    position: absolute;
+    top: -6rem;
+    right: 5%;
+    transition: 0.5s ease;
 }
+
 .content {
-  position: absolute;
-  left: 14%;
-  width: 50%;
-  bottom: 3%;
-  color: white;
+    position: absolute;
+    left: 14%;
+    width: 50%;
+    bottom: 3%;
+    color: white;
 }
+
 .content img {
-  width: 85%;
-  margin-bottom: 1rem;
+    width: 85%;
+    margin-bottom: 1rem;
 }
+
 .content h1 {
-  font-weight: 600;
-  font-size: 3rem;
+    font-weight: 600;
+    font-size: 3rem;
 }
+
 .content h4 {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .content h5 {
-  margin-bottom: 6rem;
-  font-weight: 200;
+    margin-bottom: 6rem;
+    font-weight: 200;
 }
+
 .bottom {
-  position: absolute;
-  right: 10%;
-  bottom: 3%;
-  color: white;
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+    color: white;
 }
+
 .bottom h4 {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 .right img {
-  width: 35%;
+    width: 35%;
 }

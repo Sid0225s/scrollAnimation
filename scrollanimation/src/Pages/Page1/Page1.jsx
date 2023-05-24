@@ -11,7 +11,7 @@ function Page1() {
     AOS.init({ duration: 7000 });
   }, []);
   return (
-    <div className={styles.page}>
+    <div className={styles.page} id="page-0">
       <div className={styles.left}>
         <div className={styles.content}>
           <img src={banner} alt="bh" />
