@@ -31,15 +31,12 @@
 .mobile {
   display: none;
 }
-.mobile div {
-  width: 100vw;
-}
+
 @media (max-width: 800px) {
   .laptop {
     display: none;
   }
   .mobile {
-    display: flex;
-    flex-direction: row;
+    display: block;
   }
 }
