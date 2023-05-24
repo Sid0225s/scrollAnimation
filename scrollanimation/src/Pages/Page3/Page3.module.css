@@ -83,6 +83,7 @@
 .logocon h3 {
   position: absolute;
   top: 28%;
+  margin-top: 0.5rem;
   font-size: 1.2rem;
   font-weight: 300;
   right: -5%;
@@ -106,6 +107,9 @@
   }
   .left {
     height: 50vh;
+  }
+  .logocon {
+    display: none;
   }
   .right {
     height: 50vh;

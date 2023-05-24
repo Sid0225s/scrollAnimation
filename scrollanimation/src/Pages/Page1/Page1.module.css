@@ -33,11 +33,13 @@
 .content img {
   width: 85%;
   margin-bottom: 1rem;
+  transition: 1s;
 }
 
 .content h1 {
   font-weight: 600;
   font-size: 3rem;
+  transition: 1s;
 }
 
 .content h4 {
@@ -67,13 +69,16 @@
   position: absolute;
   font-size: 3rem;
   top: 16%;
+  transition: 1s ease;
   z-index: 2;
   right: -2%;
 }
 .logocon h3 {
+  margin-top: 0.2rem;
   position: absolute;
   top: 24%;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
   right: -5%;
   z-index: 2;
 }
@@ -81,6 +86,15 @@
 .right img {
   transition: 0.5s ease;
   width: 35%;
+}
+@media (max-width: 1200px) {
+  .logocon h2 {
+    top: 19%;
+    font-size: 2.8rem;
+  }
+  .logocon h3 {
+    top: 27%;
+  }
 }
 @media (max-width: 800px) {
   .page {

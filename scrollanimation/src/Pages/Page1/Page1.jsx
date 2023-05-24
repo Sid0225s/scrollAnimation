@@ -14,13 +14,13 @@ function Page1() {
     <div className={styles.page} id="page-0">
       <div className={styles.left}>
         <div className={styles.logocon}>
-          <h2>25M+ Downloads</h2>
+          <h2 data-aos="zoom-in">25M+ Downloads</h2>
           <h3> on appstore and google playstore</h3>
         </div>
         <div className={styles.content}>
-          <img src={banner} alt="bh" />
+          <img data-aos="fade-up" src={banner} alt="bh" />
 
-          <h1>ABC 123</h1>
+          <h1 data-aos="flip-up">ABC 123</h1>
           <h5>
             we are the best web developement <br />
             company in the world
@@ -32,8 +32,13 @@ function Page1() {
         </div>
       </div>
       <div className={styles.right}>
-        <img className={styles.icon1} src={icon1} alt="" />
-        <img className={styles.icon2} src={icon2} alt="" />
+        <img data-aos="slide-up" className={styles.icon1} src={icon1} alt="" />
+        <img
+          data-aos="slide-down"
+          className={styles.icon2}
+          src={icon2}
+          alt=""
+        />
       </div>
     </div>
   );

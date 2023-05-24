@@ -34,13 +34,14 @@
 
 .h2 {
   position: absolute;
-  top: 14%;
+  top: 16%;
   z-index: 2;
   right: -4%;
 }
 .logocon h3 {
   position: absolute;
-  top: 25%;
+  top: 27%;
+  margin-top: 0.5rem;
   font-size: 1.5rem;
   font-weight: 300;
   right: -3%;
@@ -113,6 +114,9 @@
     height: 50vh;
   }
   .bottom h4 {
+    display: none;
+  }
+  .logocon {
     display: none;
   }
   .content h5 {
