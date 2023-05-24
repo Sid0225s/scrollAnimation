@@ -9,7 +9,7 @@ import AOS from "aos";
 
 function Page7() {
   useEffect(() => {
-    AOS.init({ duration: 7000 });
+    AOS.init({ duration: 6000 });
   }, []);
   return (
     <div className={styles.page}>

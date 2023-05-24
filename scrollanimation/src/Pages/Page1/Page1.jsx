@@ -27,8 +27,13 @@ function Page1() {
         </div>
       </div>
       <div className={styles.right}>
-        <img data-aos="slide-down" src={icon1} alt="" />
-        <img data-aos="slide-up" src={icon2} alt="" />
+        <img
+          className={styles.icon1}
+          data-aos="slide-down"
+          src={icon1}
+          alt=""
+        />
+        <img className={styles.icon2} data-aos="slide-up" src={icon2} alt="" />
       </div>
     </div>
   );
