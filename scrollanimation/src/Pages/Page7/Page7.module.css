@@ -69,11 +69,13 @@
   left: 14%;
   width: 50%;
   bottom: 3%;
+  z-index: 3;
   color: white;
 }
 
 .content img {
   width: 65%;
+
   margin-bottom: 1rem;
 }
 
@@ -124,5 +126,14 @@
   }
   .content {
     bottom: 25%;
+    width: 90%;
+  }
+  .content img {
+    width: 20rem;
+  }
+}
+@media (max-width: 480px) {
+  .content img {
+    width: 17rem;
   }
 }

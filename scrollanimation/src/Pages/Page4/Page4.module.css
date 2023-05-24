@@ -22,7 +22,7 @@
 
 .icon1 {
   position: absolute;
-  bottom: 2%;
+  bottom: -7rem;
   left: 10%;
   transition: 0.5s ease;
   width: 30%;
@@ -31,7 +31,7 @@
 .icon2 {
   position: absolute;
   top: 14%;
-  right: 23%;
+  right: 13%;
   transition: 0.5s ease;
   width: 28%;
 }
@@ -66,8 +66,8 @@
 
 .icon3 {
   position: absolute;
-  top: -5rem;
-  left: -1rem;
+  top: -6rem;
+  left: -2rem;
   transition: 0.5s ease;
 }
 
@@ -151,5 +151,27 @@
   }
   .icon5 {
     display: none;
+  }
+}
+@media (max-width: 500px) {
+  .icon1 {
+    bottom: -3rem;
+    width: 40%;
+  }
+  .icon2 {
+    width: 40%;
+    right: -2%;
+    bottom: -2%;
+  }
+}
+@media (max-width: 380px) {
+  .icon1 {
+    bottom: -3rem;
+    width: 40%;
+  }
+  .icon2 {
+    width: 40%;
+    right: -2%;
+    top: 52%;
   }
 }

@@ -6,6 +6,8 @@ import Page5 from "./Pages/Page5/Page5";
 import Page6 from "./Pages/Page6/Page6";
 import Page7 from "./Pages/Page7/Page7";
 import styles from "./App.module.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 import SvgComponent from "./SvgComponent";
 import { useEffect, useRef, useState } from "react";
 import createScrollSnap from "scroll-snap";
@@ -49,18 +51,43 @@ function App() {
 
   return (
     <div className={styles.app} id="app" ref={scrollRef}>
-      <Page1 />
-      <Page2 />
-      <Page3 />
-      <Page4 />
-      <Page5 />
-      <Page6 />
-      <Page7 />
-      <div className={styles.svg}>
-        <SvgComponent
-          color={colorsArray[page]}
-          position={positionArray[page]}
-        />
+      <div className={styles.laptop}>
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Page5 />
+        <Page6 />
+        <Page7 />
+        <div className={styles.svg}>
+          <SvgComponent
+            color={colorsArray[page]}
+            position={positionArray[page]}
+          />
+        </div>
+      </div>
+      <div className={styles.mobile}>
+        <div>
+          <Page1 />
+        </div>
+        <div>
+          <Page2 />
+        </div>
+        <div>
+          <Page3 />
+        </div>
+        <div>
+          <Page4 />
+        </div>
+        <div>
+          <Page5 />
+        </div>
+        <div>
+          <Page6 />
+        </div>
+        <div>
+          <Page7 />
+        </div>
       </div>
     </div>
   );

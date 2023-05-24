@@ -147,5 +147,33 @@
   }
   .content {
     bottom: 25%;
+    width: 90%;
+  }
+  .icon3 {
+    display: none;
+  }
+  .icon2 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .icon3 {
+    display: block;
+    bottom: -8rem;
+  }
+
+  .icon2 {
+    display: block;
+    top: -5rem;
+  }
+}
+@media (max-width: 400px) {
+  .icon3 {
+    display: block;
+    bottom: -2rem;
+  }
+  .icon2 {
+    display: block;
+    top: -1rem;
   }
 }
