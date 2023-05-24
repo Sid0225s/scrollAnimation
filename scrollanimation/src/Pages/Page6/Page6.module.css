@@ -2,21 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
 .page {
   display: grid;
   grid-template-columns: 5fr 6fr;
   height: 100vh;
 }
+
 .left {
   background-color: rgb(6, 22, 140);
   position: relative;
 }
+
 .right {
   background-image: url("../../Media/interior.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
 .icon1 {
   width: 100%;
   position: absolute;
@@ -24,6 +28,7 @@
   left: 0;
   transition: 0.4s ease;
 }
+
 .content {
   position: absolute;
   left: 14%;
@@ -31,14 +36,17 @@
   bottom: 3%;
   color: white;
 }
+
 .content img {
   width: 85%;
   margin-bottom: 1rem;
 }
+
 .content h1 {
   font-weight: 600;
   font-size: 3rem;
 }
+
 .content h4 {
   font-weight: 300;
 }
@@ -47,12 +55,14 @@
   margin-bottom: 6rem;
   font-weight: 200;
 }
+
 .bottom {
   position: absolute;
   right: 10%;
   bottom: 3%;
   color: white;
 }
+
 .bottom h4 {
   font-weight: 200;
 }

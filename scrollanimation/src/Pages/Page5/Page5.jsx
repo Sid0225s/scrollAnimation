@@ -14,7 +14,7 @@ function Page5() {
     AOS.init({ duration: 7000 });
   }, []);
   return (
-    <div className={styles.page}>
+    <div className={styles.page} id="page-4">
       <div className={styles.left}>
         <div className={styles.content}>
           <h1>ABC 567</h1>
