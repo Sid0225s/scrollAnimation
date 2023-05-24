@@ -11,6 +11,7 @@ import { Carousel } from "react-responsive-carousel";
 import SvgComponent from "./SvgComponent";
 import { useEffect, useRef, useState } from "react";
 import createScrollSnap from "scroll-snap";
+import { TbMessageCode } from "react-icons/tb";
 
 function App() {
   const [page, setPage] = useState(0);
@@ -59,6 +60,9 @@ function App() {
         <Page5 />
         <Page6 />
         <Page7 />
+        <div className={styles.message}>
+          <TbMessageCode />
+        </div>
         <div className={styles.svg}>
           <SvgComponent
             color={colorsArray[page]}

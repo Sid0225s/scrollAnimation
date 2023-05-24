@@ -137,3 +137,8 @@
     width: 17rem;
   }
 }
+@media (max-width: 350px) {
+  .content img {
+    width: 14rem;
+  }
+}
