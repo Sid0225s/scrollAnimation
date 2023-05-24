@@ -12,6 +12,13 @@ function Page6() {
   return (
     <div className={styles.page} id="page-5">
       <div className={styles.left}>
+        <div className={styles.logocon}>
+          <div className={styles.h2}>
+            <h4>Developing ERP Solution for </h4>
+            <h2>Text Headline</h2>
+          </div>
+          <h3>in furniture industry</h3>
+        </div>
         <div className={styles.content}>
           <h1>ABC 678</h1>
           <h5>
@@ -25,7 +32,7 @@ function Page6() {
         </div>
       </div>
       <div className={styles.right}>
-        <img data-aos="zoom-in" className={styles.icon1} src={icon1} alt="" />
+        <img className={styles.icon1} src={icon1} alt="" />
       </div>
     </div>
   );

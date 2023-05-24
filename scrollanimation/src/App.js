@@ -16,10 +16,10 @@ function App() {
     "#7f19df",
     "#6a21f2",
     "#0e0b44",
-    "#131d31f6",
-    "#205cd2f6",
+    "#131d31",
+    "#1243a6",
     "#06168c",
-    "#07694bdb",
+    "#07694c",
   ];
   const positionArray = [10, 145, 290, 425, 550, 690, 820];
   const scrollRef = useRef(null);

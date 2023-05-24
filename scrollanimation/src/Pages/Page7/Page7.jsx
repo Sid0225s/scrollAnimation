@@ -14,6 +14,13 @@ function Page7() {
   return (
     <div className={styles.page}>
       <div className={styles.left}>
+        <div className={styles.logocon}>
+          <div className={styles.h2}>
+            <h4>Biggest classifieds</h4>
+            <h2>East Asia</h2>
+          </div>
+          <h3>Countries</h3>
+        </div>
         <div className={styles.content}>
           <img src={banner} alt="bh" />
           <h1>ABC 23478</h1>
@@ -28,13 +35,8 @@ function Page7() {
         </div>
       </div>
       <div className={styles.right}>
-        <img data-aos="slide-up" className={styles.icon1} src={icon1} alt="3" />
-        <img
-          data-aos="slide-up"
-          className={styles.icon2}
-          src={icon2}
-          alt="df"
-        />
+        <img className={styles.icon1} src={icon1} alt="3" />
+        <img className={styles.icon2} src={icon2} alt="df" />
       </div>
     </div>
   );

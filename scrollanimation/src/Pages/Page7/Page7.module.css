@@ -10,7 +10,7 @@
 }
 
 .left {
-  background-color: rgba(7, 105, 75, 0.86);
+  background-color: #07694c;
   position: relative;
 }
 
@@ -19,14 +19,40 @@
   position: relative;
   overflow: hidden;
 }
+.logocon {
+  color: white;
+  z-index: 2;
+}
+.h2 h2 {
+  font-size: 3.5rem;
+}
+.h2 h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -5px;
+}
 
+.h2 {
+  position: absolute;
+  top: 14%;
+  z-index: 2;
+  right: -4%;
+}
+.logocon h3 {
+  position: absolute;
+  top: 25%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  right: -3%;
+  z-index: 2;
+}
 .icon1 {
   position: absolute;
   width: 47%;
   z-index: 1;
   left: 25%;
   bottom: -14%;
-  transition: 0.5s ease;
+  transition: 0.5s;
 }
 
 .icon2 {
@@ -34,7 +60,7 @@
   width: 35%;
   bottom: -6%;
   right: 6%;
-  transition: 0.5s ease;
+  transition: 0.5s;
 }
 
 .content {

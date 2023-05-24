@@ -13,8 +13,13 @@ function Page1() {
   return (
     <div className={styles.page} id="page-0">
       <div className={styles.left}>
+        <div className={styles.logocon}>
+          <h2>25M+ Downloads</h2>
+          <h3> on appstore and google playstore</h3>
+        </div>
         <div className={styles.content}>
           <img src={banner} alt="bh" />
+
           <h1>ABC 123</h1>
           <h5>
             we are the best web developement <br />
@@ -27,13 +32,8 @@ function Page1() {
         </div>
       </div>
       <div className={styles.right}>
-        <img
-          className={styles.icon1}
-          data-aos="slide-down"
-          src={icon1}
-          alt=""
-        />
-        <img className={styles.icon2} data-aos="slide-up" src={icon2} alt="" />
+        <img className={styles.icon1} src={icon1} alt="" />
+        <img className={styles.icon2} src={icon2} alt="" />
       </div>
     </div>
   );

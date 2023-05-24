@@ -5,6 +5,7 @@ import icon2 from "../../Media/measure-total-body-weight-through-fitness-app.png
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import nasa from "../../Media/nasa-mobile-app.png";
 
 function Page3() {
   useEffect(() => {
@@ -13,6 +14,13 @@ function Page3() {
   return (
     <div className={styles.page} id="page-2">
       <div className={styles.left}>
+        <div className={styles.logocon}>
+          <div className={styles.h2}>
+            <h4>Powered by Advance</h4>
+            <img src={nasa} alt="dn" />
+          </div>
+          <h3>in furniture industry</h3>
+        </div>
         <div className={styles.content}>
           <h1>ABC 345</h1>
           <h5>
@@ -27,18 +35,8 @@ function Page3() {
         </div>
       </div>
       <div className={styles.right}>
-        <img
-          data-aos="slide-up"
-          className={styles.icon1}
-          src={icon1}
-          alt="iue"
-        />
-        <img
-          data-aos="slide-down"
-          className={styles.icon2}
-          src={icon2}
-          alt="epw"
-        />
+        <img className={styles.icon1} src={icon1} alt="iue" />
+        <img className={styles.icon2} src={icon2} alt="epw" />
       </div>
     </div>
   );

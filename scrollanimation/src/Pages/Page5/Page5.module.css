@@ -10,7 +10,7 @@
 }
 
 .left {
-  background-color: rgba(32, 92, 210, 0.964);
+  background-color: #1243a6;
   position: relative;
 }
 
@@ -26,6 +26,33 @@
   left: 14%;
   transition: 0.5s ease;
   width: 26%;
+}
+.logocon {
+  color: white;
+  z-index: 2;
+}
+.h2 h2 {
+  font-size: 3.5rem;
+}
+.h2 h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -5px;
+}
+
+.h2 {
+  position: absolute;
+  top: 16%;
+  z-index: 2;
+  right: -4%;
+}
+.logocon h3 {
+  position: absolute;
+  top: 27%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  right: -3%;
+  z-index: 2;
 }
 
 .icon2 {
@@ -101,6 +128,9 @@
   .page {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .logocon {
+    display: none;
   }
   .left {
     height: 50vh;
