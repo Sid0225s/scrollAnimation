@@ -64,3 +64,25 @@
 .right img {
   width: 35%;
 }
+@media (max-width: 800px) {
+  .page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left {
+    height: 50vh;
+  }
+  .right {
+    height: 50vh;
+  }
+  .bottom h4 {
+    display: none;
+  }
+  .content h5 {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    bottom: 25%;
+  }
+}
