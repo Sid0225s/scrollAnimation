@@ -5,36 +5,47 @@ import Page4 from "./Pages/Page4/Page4";
 import Page5 from "./Pages/Page5/Page5";
 import Page6 from "./Pages/Page6/Page6";
 import Page7 from "./Pages/Page7/Page7";
-import styles from './App.module.css'
+import styles from "./App.module.css";
 import SvgComponent from "./SvgComponent";
 import { useEffect, useRef, useState } from "react";
-import createScrollSnap from 'scroll-snap'
-
+import createScrollSnap from "scroll-snap";
 
 function App() {
   const [page, setPage] = useState(0);
-  const colorsArray = ['#7f19df', '#6a21f2', '#0e0b44', '#131d31f6', '#205cd2f6', '#06168c', '#07694bdb'];
+  const colorsArray = [
+    "#7f19df",
+    "#6a21f2",
+    "#0e0b44",
+    "#131d31f6",
+    "#205cd2f6",
+    "#06168c",
+    "#07694bdb",
+  ];
   const positionArray = [10, 145, 290, 425, 550, 690, 820];
   const scrollRef = useRef(null);
   useEffect(() => {
     if (scrollRef.current) {
-      const { bind } = createScrollSnap(scrollRef.current, {
-        snapDestinationX: '0%',
-        snapDestinationY: '100%',
-        timeout: 100,
-        duration: 300,
-        threshold: 0.2,
-        snapStop: false,
-      }, () => {
-        let viewPortHeight = window.innerHeight;
-        let currentPosition = document.querySelector('#app').scrollTop;
-        let p = currentPosition / viewPortHeight;
-        p = Math.round(p);
-        setPage(p);
-      })
+      const { bind } = createScrollSnap(
+        scrollRef.current,
+        {
+          snapDestinationX: "0%",
+          snapDestinationY: "100%",
+          timeout: 100,
+          duration: 300,
+          threshold: 0.2,
+          snapStop: false,
+        },
+        () => {
+          let viewPortHeight = window.innerHeight;
+          let currentPosition = document.querySelector("#app").scrollTop;
+          let p = currentPosition / viewPortHeight;
+          p = Math.round(p);
+          setPage(p);
+        }
+      );
       bind();
     }
-  }, [scrollRef])
+  }, [scrollRef]);
 
   return (
     <div className={styles.app} id="app" ref={scrollRef}>
@@ -46,7 +57,10 @@ function App() {
       <Page6 />
       <Page7 />
       <div className={styles.svg}>
-        <SvgComponent color={colorsArray[page]} position={positionArray[page]} />
+        <SvgComponent
+          color={colorsArray[page]}
+          position={positionArray[page]}
+        />
       </div>
     </div>
   );
